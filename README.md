@@ -2,10 +2,10 @@
 
 >- simple base
 >- use pairing code
->- user nodejs 20+
+>- use nodejs 20+
 >- support termux
 
-`▽ to install in termux`
+`▽ install in termux`
 ```
 pkg update && pkg upgrade -y    
 pkg install git -y   
@@ -15,6 +15,7 @@ cd base-bot
 npm install    
 npm start   
 ```
+           
 ***Change owner settings in setting.js file***
 ```javascript
 import fs from 'fs';
