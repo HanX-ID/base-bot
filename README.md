@@ -1,11 +1,4 @@
-***Base Bot Whatsapp!***
-
->- simple base
->- use pairing code
->- use nodejs 20+
->- support termux
-
-`▽ install in termux`
+`Commands In Termux`
 ```
 pkg update && pkg upgrade -y    
 pkg install git -y   
@@ -16,7 +9,7 @@ npm install
 npm start   
 ```
            
-***Change owner settings in setting.js file***
+`Ubah pengaturan owner di file setting.js`
 ```javascript
 import fs from 'fs';
 import { fileURLToPath } from 'url';
