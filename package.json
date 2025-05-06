@@ -1,0 +1,24 @@
+{
+  "name": "HanX",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "esm"
+  ],
+  "author": "HanX",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.16",
+    "awesome-phonenumber": "^2.70.0",
+    "chalk": "^4.1.2",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
